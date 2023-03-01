@@ -34,6 +34,12 @@ h1{
     font-size: 100px;
 
 }
+p{
+    color: white;
+    font-size: 16px;
+    line-height: 14px;
+    
+}
 h5{
     color: white;
 }
@@ -45,4 +51,16 @@ h5{
 }
 .col{
     flex-basis: 50%;
+}
+
+.projectcard{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px  15px;
+    background-image: url;
+
+
+
 }
