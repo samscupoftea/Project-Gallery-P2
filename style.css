@@ -29,3 +29,20 @@ nav ul li{
     margin-left: 60px;
 
 }
+h1{
+    color: white;
+    font-size: 100px;
+
+}
+h5{
+    color: white;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+}
