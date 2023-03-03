@@ -11,3 +11,7 @@ Today is about creating the overall structure by making the basic nav bar, creat
 Creating the title. I wanted the bold, white text to go over the top of the background image. To do this I realized that my <H1> tags of basically _anything_ that I wanted to be included ON TOP of the image, had to be placed and written within the .container div class. Otherwise the content would be placed below the image. This also goes for my project tiles that I have now added. I want the title content and the tiles to be position in the center of the page. In order to do this I used CSS and flex styling. I created a <div class> for each project tile also.
 I successfully styled and added a background image to each project tile.
 They are also clickable and I shall add the links to each project later.
+
+March 3rd:
+Today's goal is to finish the my project gallery so that I can spend the weekend on my 3rd project: Movie Data.
+The first big learning of today was realizing the uses and differences of two CSS tags that relate to my Nav bar. This tag is called " nav ul li". This tag allows you to style whatever is in between <nav> tags. However, this tag only relates to positioning etc. When I tried to style the font within this, the changes did not take effect. I saw another user example who had a second tag in CSS called "nav ul a" within which they had added various font properties like colouring etc. I did this and my changes took effect. I will use this for future work when creating Nav bars.
