@@ -71,11 +71,20 @@ h5{
     margin-left: 20px;
     margin-bottom: 20px;
     
-
-
-
-
-
-
-
 }
+.projectcard1{
+    background-image:url(./Images/flamingo.jpeg);
+}
+.projectcard2{
+    background-image:url(./Images/dusk\ plate\ .jpeg);
+}
+.projectcard3{
+    background-image:url(./Images/hallskymind.jpeg);
+}
+.projectcard4{
+    background-image:url(./Images/ladder\ boy\ moon.jpeg);
+}
+.projectcard5{
+    background-image:url(./Images/Bridge\ pink\ sky.jpeg);
+}
+
