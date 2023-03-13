@@ -4,10 +4,10 @@ const projectCards = document.querySelectorAll('.projectcard');
 // Define an array of URLs for each project
 const projectUrls = [
   'https://samscupoftea.github.io/My-First-Repo/',
-  'https://example.com/project2',
-  'https://example.com/project3',
-  'https://example.com/project4',
-  'https://example.com/project5'
+  'https://samscupoftea.github.io/Project-Gallery-P2/',
+  'https://samscupoftea.github.io/Movie-Data-P3/',
+  'https://samscupoftea.github.io/Website-P4/',
+  'https://samscupoftea.github.io/Game-P5/'
 ];
 
 // Add a click event listener to each project card
