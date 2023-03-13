@@ -52,6 +52,7 @@ p{
 }
 h5{
     color: white;
+    
 }
 .row{
     display: flex;
@@ -81,7 +82,14 @@ h5{
     margin-left: 20px;
     margin-bottom: 20px;
     transition: transform 0.5s;
-    
+   
+}
+.card-image{
+    background-color: aliceblue;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+
 }
 .projectcard1{
     background-image:url(./Images/flamingo.jpeg);
