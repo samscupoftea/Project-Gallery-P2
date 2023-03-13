@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=, initial-scale=1">
-        <title> Project Gallery </title>
-        <meta name="description" content="Project Gallery">
-        <link rel="stylesheet" href="./style.css">
-        <link href="https://fonts.googleeapis.com/css2?family=Robotowght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=, initial-scale=1">
+    <title>Project Gallery</title>
+    <meta name="description" content="Project Gallery">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>        
 
-    <body>
-           
-        <div class="container">
-            <div class="navbar">
-                <nav>
-                    <ul>
-                        <li><a href="https://github.com/samscupoftea">Github</a></li>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">HOME</a></li>
-                    </ul>
-                </nav>
-            </div>    
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/samscupoftea">Github</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">HOME</a></li>
+                </ul>
+            </nav>
+        </div>    
         
         <div class="row">
-        <div class="col">
-        <header>
-            <h1>PROJECT GALLERY </h1>
-            <h3> By Sam Hockaday </h3>
-        </header>
-        </div>
-        <div class="col">
-            <div class="projectcard projectcard1">
-                <h5> Project 1: Hobby Page </h5>
-                <p> This is a web page that explains my interest in meditation. </p>
-                <button class="description-button" onclick="toggleDescription('description1')">Show Description</button>
-                <p class="project-description" id="description1" style="display:none;">This is the description of the Hobby Page project.</p>
+            <div class="col">
+                <header>
+                    <h1>PROJECT GALLERY</h1>
+                    <h3>By Sam Hockaday</h3>
+                </header>
             </div>
-            
-            <div class="projectcard projectcard2">
-                <h5> Project 2: Project Gallery </h5>
-                <p> This very project right now!  </p>
-                <button class="description-button" onclick="toggleDescription('description2')">Show Description</button>
-                <p class="project-description" id="description2" style="display:none;">This is the description of the Project Gallery project.</p>
-            </div>
-            
-            <div class="projectcard projectcard3">
-                <h4> Project 3: Movie Data  </h4>
-                <p> An interactive movie database including Wes Anderson's films. </p>
-                <button class="description-button" onclick="toggleDescription('description3')">Show Description</button>
-                <p class="project-description" id="description3" style="display:none;">This is the description of the Movie Data project.</p>
-            </div>
-            
-            <div class="projectcard projectcard4">
-                <h5> Project 4: Website </h5>
-                <p> This is my application website about yours truly and my application. </p>
-                <button class="description-button" onclick="toggleDescription('description4')">Show Description</button>
-                <p class="project-description" id="description4" style="display:none;">This is the description of the Website project.</p>
-            </div>
-            
-            <div class="projectcard projectcard5">
-                <h5> Project 5: Game  </h5>
-                <p> This is my interactive game! </p>
-                <button class="description-button" onclick="toggleDescription('description5')">Show Description</button>
-                <p class="project-description" id="description5" style="display:none;">This is the description of the Game project.</p>
-            </div>
+            <div class="col">
+                <div class="projectcard projectcard1">
+                    <h5>Project 1: Hobby Page</h5>
+                    <p class="description hidden">This is a web page that explains my interest in meditation.</p>
+                    <button class="description-button">Show Description</button>
+                </div>
+
+                <div class="projectcard projectcard2">
+                    <h5>Project 2: Project Gallery</h5>
+                    <p class="description hidden">This very project right now!</p>
+                    <button class="description-button">Show Description</button>
+                </div>
+              
+                <div class="projectcard projectcard3">
+                    <h5>Project 3: Movie Data</h5>
+                    <p class="description hidden">An interactive movie database including Wes Anderson's films.</p>
+                    <button class="description-button">Show Description</button>
+                </div>
+              
+                <div class="projectcard projectcard4">
+                    <h5>Project 4: Website</h5>
+                    <p class="description hidden">This is my application website about yours truly and my application.</p>
+                    <button class="description-button">Show Description</button>
+                </div>
+              
+                <div class="projectcard projectcard5">
+                    <h5>Project 5: Game</h5>
+                    <p class="description hidden">This is my interactive game!</p>
+                    <button class="description-button" onclick="toggleDescription(event, 'description')">Show Description</button>
+
+               
+
+              </div>
+              
             
         </div>
     </div>
