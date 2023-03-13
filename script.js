@@ -1,16 +1,19 @@
-// target all project cards in project gallery using DOM 
-const projectCards = document.querySelector('.projectcard');
+// Get all the project cards
+const projectCards = document.querySelectorAll('.projectcard');
 
-// Here are all of the URL's for each project. 
+// Define an array of URLs for each project
+const projectUrls = [
+  'https://samscupoftea.github.io/My-First-Repo/',
+  'https://example.com/project2',
+  'https://example.com/project3',
+  'https://example.com/project4',
+  'https://example.com/project5'
+];
 
-
-
-// Add event listener upon click. 
-
+// Add a click event listener to each project card
 projectCards.forEach((card, index) => {
-    card.EventListener('click', () => {
-
-        window.location.href = projectUrls[https://samscupoftea.github.io/My-First-Repo/];
-
-    })
-})
+  card.addEventListener('click', () => {
+    // Redirect the user to the URL for the clicked project card
+    window.location.href = projectUrls[index];
+  });
+});
