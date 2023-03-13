@@ -82,7 +82,8 @@ h5{
     display: inline-flex;
     border-radius: 20px;
     padding: 10px 15px;
-    background-image:url(./Images/hallskymind.jpeg);
+    background-image: linear-gradient(rgba(250, 250, 250, 0.841),rgba(58, 58, 58, 0.7)),url(./Images/hallskymind.jpeg);
+    
     cursor: pointer;
     background-size: cover;
     background-position: center;
@@ -98,19 +99,23 @@ h5{
 
 
 .projectcard1{
-    background-image:url(./Images/flamingo.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.841),rgba(255, 255, 255, 0.7)),url(./Images/flamingo.jpeg);
 }
 .projectcard2{
-    background-image:url(./Images/dusk\ plate\ .jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.841),rgba(255, 255, 255, 0.7)),url(./Images/dusk\ plate\ .jpeg);
+    
 }
 .projectcard3{
-    background-image:url(./Images/hallskymind.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.841),rgba(249, 249, 249, 0.7)),url(./Images/hallskymind.jpeg);
+    
 }
 .projectcard4{
-    background-image:url(./Images/ladder\ boy\ moon.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.841),rgba(255, 255, 255, 0.7)),url(./Images/ladder\ boy\ moon.jpeg);
+    
 }
 .projectcard5{
-    background-image:url(./Images/Bridge\ pink\ sky.jpeg);
+    background-image: linear-gradient(rgba(250, 250, 250, 0.841),rgba(58, 58, 58, 0.7)),url(./Images/Bridge\ pink\ sky.jpeg);
+
 }
 
 .projectcard:hover{
