@@ -9,7 +9,7 @@ const projectUrls = [
   'https://samscupoftea.github.io/Website-P4/',
   'https://samscupoftea.github.io/Game-P5/'
 ];
-
+//added JS 
 // Add a click event listener to each project card
 projectCards.forEach((card, index) => {
   card.addEventListener('click', () => {
