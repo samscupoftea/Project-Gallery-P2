@@ -171,6 +171,16 @@ h5{
     
 }
 
-
+@media (max-width: 600px) {
+    /* adjust the layout here */
+    .row {
+      flex-direction: column;
+    }
+    .col {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
 
 
