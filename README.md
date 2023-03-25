@@ -1,5 +1,20 @@
 # Project-Gallery-P2
 
+Project Gallery Readme
+
+Summary:
+
+1. I started working on my project gallery and created some initial structure in the HTML file.
+2. I implemented some coding I had learnt while building my Hobby page, including adding title text, a background image, and a gradient to darken the image.
+3. I positioned my background image to fit the entire page and added font styling using the \* tag in CSS for consistency with my Hobby page.
+4. I decided to leave my project gallery for a while as there were many elements to fix, add, and learn on my Hobby page.
+   Once my Hobby page was mostly finished, I started working on my project gallery again.
+5. I created the overall structure by making the basic nav bar and divs for the title, nav bar, and project tiles.
+6. I used CSS and flex styling to position the title content and project tiles in the center of the page.
+7. I successfully styled and added a background image to each project tile, and made them clickable.
+8. I learnt about the differences between two CSS tags for styling the nav bar, and how to target each project tile individually to alter their background images.
+9. I implemented a nice animation using CSS when the cursor hovers over each tile of my gallery page.
+
 14th Febuary: Having already made a project, repo and folders for the project gallery back before I started work on Project 1, I now returned to layout a beginning structure for my project gallery.
 Here I added some initial strucutre to my html file and created some <div class> tags that will prove useful in styling and organising the page.
 15th Febuary: Now I know exactly how I want the gallery to look. I implemented some of the coding I have learnt while building my Hobby page.
